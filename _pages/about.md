@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a PhD student at [IMDEA Software Institute](https://software.imdea.org/), under the supervision of [Alessandra Gorla](https://software.imdea.org/~alessandra.gorla/). My main research interest are Software Testing and Program Analysis. In my previous works, I mostly focused on Symbolic Execution.
+I'm a PhD student at [IMDEA Software Institute](https://software.imdea.org/), under the supervision of [Alessandra Gorla](https://software.imdea.org/~alessandra.gorla/). My main research interests are Software Testing and Program Analysis. In my previous works, I mostly focused on Symbolic Execution.
 
 
 ## Publications
