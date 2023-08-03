@@ -39,14 +39,14 @@ I'm a PhD student at [IMDEA Software Institute](https://software.imdea.org/), un
 <p>
 <b>LISSA and PLI</b> are both symbolic execution techniques whose purpose is to improve symbolic analysis of programs with complex heap-allocated inputs and complex preconditions.
 [
-<a href="https://github.com/JuanmaCopia/pli">code</a>&nbsp;
+<a href="https://github.com/JuanmaCopia/spf-pli">code</a>&nbsp;
 ]
 </p>
 
 <p>
 <b>SymSolve</b> is an efficient bounded exhaustive solver for symbolic structures with complex representation invariants. SymSolve was built to decide the satisfiability of structural constraints of partially symbolic heaps that arise during symbolic execution using lazy initialization.
 [
-<a href="https://github.com/JuanmaCopia/symsolve">code</a>&nbsp;
+<a href="https://github.com/JuanmaCopia/SymSolve">code</a>&nbsp;
 ]
 </p>
 
