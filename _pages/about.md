@@ -51,7 +51,7 @@ I'm a PhD student at [IMDEA Software Institute](https://software.imdea.org/), un
 </p>
 
 <p>
-<b>PySEAT</b> is a symbolic execution engine for Python programs. PySEAT also implements lazy initialization to support symbolic representation of heap-allocated objects and is able to automatically generate tests for these programs. PySEAT was past of my Master's thesis.
+<b>PySEAT</b> is a symbolic execution engine for Python programs. PySEAT also implements lazy initialization to support symbolic representation of heap-allocated objects and is able to automatically generate tests for these programs. PySEAT was part of my Master's thesis.
 [
 <a href="https://github.com/JuanmaCopia/PySEAT">code</a>&nbsp;|
 <a href="https://juanmacopia.github.io/files/pyseat2020.pdf">.pdf</a>&nbsp;
