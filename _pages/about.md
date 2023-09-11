@@ -15,6 +15,9 @@ I'm a PhD student at [IMDEA Software Institute](https://software.imdea.org/), un
 
 <p>
 <b>Precise Lazy Initialization for Programs with Complex Heap Inputs</b> Juan Manuel Copia, Facundo Molina, Nazareno Aguirre, Marcelo Frias, Alessandra Gorla, and Pablo Ponzio. <em> To appear in the 34th IEEE International Symposium on Software Reliability Engineering (ISSRE '22), Florence, Italy</em>, October 2023.
+[
+<a href="https://juanmacopia.github.io/files/pli2023.pdf">.pdf</a>&nbsp;
+]
 </p>
 
 <p>
