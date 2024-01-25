@@ -14,8 +14,16 @@ I'm a PhD student at [IMDEA Software Institute](https://software.imdea.org/), un
 ## Publications
 
 <p>
-<b>Precise Lazy Initialization for Programs with Complex Heap Inputs</b> Juan Manuel Copia, Facundo Molina, Nazareno Aguirre, Marcelo Frias, Alessandra Gorla, and Pablo Ponzio. <em> To appear in the 34th IEEE International Symposium on Software Reliability Engineering (ISSRE '23), Florence, Italy</em>, October 2023.
+<b>Improving Patch Correctness Analysis via Random Testing and Large Language Models</b> Facundo Molina, Juan Manuel Copia, Alessandra Gorla. <em> To appear in 17th IEEE International Conference on Software Testing, Verification and Validation (ICST '24), Toronto, Canada</em>, May 2024.
 [
+<a href="https://juanmacopia.github.io/files/icst2024.pdf">.pdf</a>&nbsp;
+]
+</p>
+
+<p>
+<b>Precise Lazy Initialization for Programs with Complex Heap Inputs</b> Juan Manuel Copia, Facundo Molina, Nazareno Aguirre, Marcelo Frias, Alessandra Gorla, and Pablo Ponzio. <em> In the 34th IEEE International Symposium on Software Reliability Engineering (ISSRE '23), Florence, Italy</em>, October 2023.
+[
+<a href="https://ieeexplore.ieee.org/document/10301268">https</a>&nbsp;|
 <a href="https://juanmacopia.github.io/files/pli2023.pdf">.pdf</a>&nbsp;
 ]
 </p>
