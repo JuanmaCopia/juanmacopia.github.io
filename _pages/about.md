@@ -8,7 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-I'm a PhD student at [IMDEA Software Institute](https://software.imdea.org/), under the supervision of [Alessandra Gorla](https://software.imdea.org/~alessandra.gorla/). My main research interests are Software Testing and Program Analysis. In my previous works, I mostly focused on Symbolic Execution.
+<p>
+I'm finishing my PhD at [IMDEA Software Institute](https://software.imdea.org/) and [Universidad Politécnica de Madrid](https://www.upm.es/), under the supervision of [Alessandra Gorla](https://software.imdea.org/~alessandra.gorla/).
+</p>
+
+## Interests
+
+<p>
+I am passionate about program analysis. My work focuses on improving software correctness by leveraging techniques such as symbolic execution, automatic test input generation, precondition inference, fuzzing, search algorithms, and machine learning. I thrive on solving challenging problems using advanced software engineering methods and enjoy designing and building software tools to implement these solutions effectively.
+</p>
 
 
 ## Publications
@@ -16,6 +24,8 @@ I'm a PhD student at [IMDEA Software Institute](https://software.imdea.org/), un
 <p>
 <b>Improving Patch Correctness Analysis via Random Testing and Large Language Models</b> Facundo Molina, Juan Manuel Copia, Alessandra Gorla. <em> To appear in 17th IEEE International Conference on Software Testing, Verification and Validation (ICST '24), Toronto, Canada</em>, May 2024.
 [
+
+<a href="https://doi.org/10.1109/ICST60714.2024.00036">https</a>&nbsp;|
 <a href="https://juanmacopia.github.io/files/icst2024.pdf">.pdf</a>&nbsp;
 ]
 </p>
@@ -23,7 +33,7 @@ I'm a PhD student at [IMDEA Software Institute](https://software.imdea.org/), un
 <p>
 <b>Precise Lazy Initialization for Programs with Complex Heap Inputs</b> Juan Manuel Copia, Facundo Molina, Nazareno Aguirre, Marcelo Frias, Alessandra Gorla, and Pablo Ponzio. <em> In the 34th IEEE International Symposium on Software Reliability Engineering (ISSRE '23), Florence, Italy</em>, October 2023.
 [
-<a href="https://ieeexplore.ieee.org/document/10301268">https</a>&nbsp;|
+<a href="https://doi.org/10.1109/ISSRE59848.2023.00080">https</a>&nbsp;|
 <a href="https://juanmacopia.github.io/files/pli2023.pdf">.pdf</a>&nbsp;
 ]
 </p>
@@ -48,21 +58,35 @@ I'm a PhD student at [IMDEA Software Institute](https://software.imdea.org/), un
 ## Software Artifacts
 
 <p>
-<b>LISSA and PLI</b> are both symbolic execution techniques whose purpose is to improve symbolic analysis of programs with complex heap-allocated inputs and complex preconditions.
+<b>Express</b> A tool that automatically infers method preconditions and class invariants using search-based algorithms. It specializes in generating executable predicates (Java code) as preconditions for complex heap-allocated objects.
+[
+<a href="https://github.com/JuanmaCopia/express">code</a>&nbsp;
+]
+</p>
+
+<p>
+<b>FixCheck</b> A tool for improving patch correctness analysis in Java. It integrates static analysis, random testing, and large language models (LLMs) to automatically generate tests that highlight and explain potential patch inconsistencies.
+[
+<a href="https://github.com/facumolina/fixcheck/">code</a>&nbsp;
+]
+</p>
+
+<p>
+<b>PLI</b> is a symbolic execution framework built on top of Java Symbolic PathFinder (JPF). It enhances symbolic analysis for programs with complex heap-allocated inputs and intricate preconditions. PLI addresses key challenges in lazy initialization, enabling more precise and efficient symbolic reasoning.
 [
 <a href="https://github.com/JuanmaCopia/spf-pli">code</a>&nbsp;
 ]
 </p>
 
 <p>
-<b>SymSolve</b> is an efficient bounded exhaustive solver for symbolic structures with complex representation invariants. SymSolve was built to decide the satisfiability of structural constraints of partially symbolic heaps that arise during symbolic execution using lazy initialization.
+<b>SymSolve</b> is an efficient bounded exhaustive solver for symbolic structures with complex representation invariants. It determines the satisfiability of partially symbolic heaps with respect to structural constraints by leveraging operational specifications (e.g., repOk routines).
 [
 <a href="https://github.com/JuanmaCopia/SymSolve">code</a>&nbsp;
 ]
 </p>
 
 <p>
-<b>PySEAT</b> is a symbolic execution engine for Python programs. PySEAT also implements lazy initialization to support symbolic representation of heap-allocated objects and is able to automatically generate tests for these programs. PySEAT was part of my Master's thesis.
+<b>PySEAT</b> is a symbolic execution engine for Python programs that implements lazy initialization to represent heap-allocated objects symbolically. It automates test generation for Python codebases, achieving high coverage and uncovering potential errors in complex systems.
 [
 <a href="https://github.com/JuanmaCopia/PySEAT">code</a>&nbsp;|
 <a href="https://juanmacopia.github.io/files/pyseat2020.pdf">.pdf</a>&nbsp;
@@ -77,51 +101,12 @@ I'm a PhD student at [IMDEA Software Institute](https://software.imdea.org/), un
 * [Facundo Molina](https://facumolina.github.io/) (IMDEA Software Institute, Spain)
 * [Nazareno Aguirre](https://dc.exa.unrc.edu.ar/staff/naguirre) (UNRC, Argentina)
 
+## Contact
 
+<p>
+<b>Email:</b> jmcopia96@gmail.com
+</p>
 
-
-
-
-
-
-
-
-
-
-
-
-<!--
-## Projects
-
-<table style="border-collapse: collapse; border: none; font-size:100%">
-	<tr style="border: none;">
-		<td style="width:30%; border: none;">
-			<div class="card-img" style="text-align: left;">
-				<img src="{{ site.url }}{{ site.baseurl }}/images/specfuzzer-pic.png">
-			</div>
-		</td>
-		<td align="justify" style="border: none"><a href="https://sites.google.com/view/specfuzzer">SpecFuzzer</a> is a technique that automatically infers test oracles in the form of class specifications (postconditions, invariants). SpecFuzzer uses a fuzzer as a generator of candidate assertions derived from a grammar that is automatically obtained from the class definition; a dynamic invariant detector –Daikon– to filter out assertions invalidated by a test suite; and a mutation-based mechanism to cluster and rank assertions, so that similar constraints are grouped and then the stronger prioritized.
-		</td>
-	</tr>
-	<tr style="border: none;">
-		<td style="width:30%; border: none;">
-			<div class="card-img" style="text-align: left;">
-				<img src="{{ site.url }}{{ site.baseurl }}/images/evospex-pic.png">
-			</div>
-		</td>
-		<td align="justify" style="border: none;">Software reliability analyses requires a specification of the intended behavior of the software under analysis. Unfortunately, software many times lacks such specifications, or only provides them for scenario-specific behaviors. This issue seriously diminishes the analyzability of software with respect to its reliability. <a href="https://github.com/facumolina/evospex">EvoSpex</a> is a tool that, given a Java method, uses an evolutionary algorithm to produce a specification of the method's current behavior, in the form of postcondition assertions.</td>
-	</tr>
-	<tr style="border: none;">
-		<td style="width:30%; height: 30%; border: none;">
-			<div class="card-img" style="text-align: left;">
-				<img src="{{ site.url }}{{ site.baseurl }}/images/nn-proj-all-2.png">
-			</div>
-		</td>
-		<td align="justify" style="border: none;">As expressing class specifications, such as class invariants, can be a very challenging task, and they are often absent accompanying code, in the <a href="https://sites.google.com/site/learninginvariants">Training Binary Classifiers as Data Structures Invariants</a> project we explore the use of artificial neural networks (binary classifiers) as class invariants of data structure implementations, i.e., we train these models to learn to distinguish valid/invalid instances of data structures. The obtained classifier can then be used in order to attempt to identify (in)correct behaviors in programs manipulating the class.</td>
-	</tr>
-</table> -->
-
-
-
-
-
+<p>
+You can find my CV on <a href="https://juanmacopia.github.io/files/cv.pdf">this link</a>.
+</p>
