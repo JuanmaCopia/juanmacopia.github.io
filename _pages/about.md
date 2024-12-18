@@ -8,15 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-<p>
+
 I'm finishing my PhD at [IMDEA Software Institute](https://software.imdea.org/) and [Universidad Politécnica de Madrid](https://www.upm.es/), under the supervision of [Alessandra Gorla](https://software.imdea.org/~alessandra.gorla/).
-</p>
+
 
 ## Interests
 
-<p>
 I am passionate about program analysis. My work focuses on improving software correctness by leveraging techniques such as symbolic execution, automatic test input generation, precondition inference, fuzzing, search algorithms, and machine learning. I thrive on solving challenging problems using advanced software engineering methods and enjoy designing and building software tools to implement these solutions effectively.
-</p>
 
 
 ## Publications
