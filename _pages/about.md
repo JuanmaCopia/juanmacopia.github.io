@@ -8,21 +8,46 @@ redirect_from:
   - /about.html
 ---
 
+I'm a software engineer and researcher completing a PhD in Computer Science from [IMDEA Software Institute](https://software.imdea.org/) and [Universidad Politécnica de Madrid](https://www.upm.es/), supervised by [Alessandra Gorla](https://software.imdea.org/~alessandra.gorla/).  
+My career bridges **academic innovation** and **industrial software engineering**, connecting deep research in program analysis and automated reasoning with the design, development, and deployment of scalable, real-world systems.
 
-I'm finishing my PhD at [IMDEA Software Institute](https://software.imdea.org/) and [Universidad Politécnica de Madrid](https://www.upm.es/), under the supervision of [Alessandra Gorla](https://software.imdea.org/~alessandra.gorla/).
+I currently work as a **Software Development Engineer at Amazon**, where I design and deploy backend services powered by AWS technologies (EC2, Lambda, DynamoDB, S3, CloudWatch, CDK). My work combines robust software design, automation, and emerging AI tools to improve developer productivity and service scalability.  
 
+Previously, during my PhD, I focused on creating **intelligent software analysis systems**—using symbolic execution, search-based algorithms, and machine learning to automatically reason about program behavior and correctness. Some of my recent projects integrate **large language models (LLMs)** into patch correctness validation and test generation.
 
-## Interests
+---
 
-I am passionate about program analysis. My work focuses on improving software correctness by leveraging techniques such as symbolic execution, automatic test input generation, precondition inference, fuzzing, search algorithms, and machine learning. I thrive on solving challenging problems using advanced software engineering methods and enjoy designing and building software tools to implement these solutions effectively.
+## Research & Engineering Interests
 
+I’m passionate about building **intelligent, agentic software** that can reason, adapt, and collaborate autonomously.  
+My current interests span:
+
+- AI-assisted software engineering  
+- Symbolic and search-based program analysis  
+- Machine learning–based reasoning systems  
+- Software reliability and automated testing  
+- AI agents and infrastructure for scalable, data-driven products  
+
+My long-term goal is to merge my background in software systems and formal reasoning with modern AI techniques to design tools and systems that learn, self-improve, and operate at scale.
+
+---
 
 ## Publications
 
 <p>
-<b>Improving Patch Correctness Analysis via Random Testing and Large Language Models</b> Facundo Molina, Juan Manuel Copia, Alessandra Gorla. <em> To appear in 17th IEEE International Conference on Software Testing, Verification and Validation (ICST '24), Toronto, Canada</em>, May 2024.
-[
+<b>Search-based Inference of Class Invariants: How far can Simulated Annealing take us?</b> J. M. Copia, F. Molina, N. Aguirre, M. Frias, A. Gorla, P. Ponzio. <em>To appear in Symposium on Search-Based Software Engineering (SSBSE '25), Seoul, Republic of Korea</em>, November 2025.
+</p>
 
+<p>
+<b>Search-based Inference of Class Invariants (Poster)</b> J. M. Copia, F. Molina, N. Aguirre, M. Frias, A. Gorla, P. Ponzio. <em>In 2025 Genetic and Evolutionary Computation Conference (GECCO '25), Malaga, Spain</em>.
+[
+<a href="https://doi.org/10.1145/3712255.3726698">https</a>
+]
+</p>
+
+<p>
+<b>Improving Patch Correctness Analysis via Random Testing and Large Language Models</b> Facundo Molina, Juan Manuel Copia, Alessandra Gorla. <em> In Proceedings of the 17th IEEE International Conference on Software Testing, Verification and Validation (ICST '24), Toronto, Canada</em>, May 2024.
+[
 <a href="https://doi.org/10.1109/ICST60714.2024.00036">https</a>&nbsp;|
 <a href="https://juanmacopia.github.io/files/icst2024.pdf">.pdf</a>&nbsp;
 ]
@@ -45,66 +70,61 @@ I am passionate about program analysis. My work focuses on improving software co
 </p>
 
 <p>
-<b>Use of test doubles in Android testing: an in-depth investigation</b> Mattia Fazzini, Chase Choi, Juan Manuel Copia, Gabriel Lee, Yoshiki Kakehi, Alessandra Gorla, and Alessandro Orso. <em> In Proceedings of the 44th International Conference on Software Engineering (ICSE '22), Pittsburgh, USA</em>, May 2022.
+<b>Use of Test Doubles in Android Testing: An In-Depth Investigation</b> Mattia Fazzini, Chase Choi, Juan Manuel Copia, Gabriel Lee, Yoshiki Kakehi, Alessandra Gorla, and Alessandro Orso. <em> In Proceedings of the 44th International Conference on Software Engineering (ICSE '22), Pittsburgh, USA</em>, May 2022.
 [
 <a href="https://doi.org/10.1145/3510003.3510175">https</a>&nbsp;|
 <a href="https://dl.acm.org/doi/pdf/10.1145/3510003.3510175">.pdf</a>&nbsp;
 ]
 </p>
 
+---
 
 ## Software Artifacts
 
 <p>
-<b>Express</b> A tool that automatically infers method preconditions and class invariants using search-based algorithms. It specializes in generating executable predicates (Java code) as preconditions for complex heap-allocated objects.
+<b>Express</b> — A tool that automatically infers method preconditions and class invariants using search-based algorithms. It generates executable predicates (Java code) for complex heap-allocated objects.  
 [
-<a href="https://github.com/JuanmaCopia/express">code</a>&nbsp;
+<a href="https://github.com/JuanmaCopia/express">code</a>
 ]
 </p>
 
 <p>
-<b>FixCheck</b> A tool for improving patch correctness analysis in Java. It integrates static analysis, random testing, and large language models (LLMs) to automatically generate tests that highlight and explain potential patch inconsistencies.
+<b>FixCheck</b> — A tool for improving patch correctness analysis in Java. It integrates static analysis, random testing, and large language models (LLMs) to generate tests that highlight and explain potential patch inconsistencies.  
 [
-<a href="https://github.com/facumolina/fixcheck/">code</a>&nbsp;
+<a href="https://github.com/facumolina/fixcheck/">code</a>
 ]
 </p>
 
 <p>
-<b>PLI</b> is a symbolic execution framework built on top of Java Symbolic PathFinder (JPF). It enhances symbolic analysis for programs with complex heap-allocated inputs and intricate preconditions. PLI addresses key challenges in lazy initialization, enabling more precise and efficient symbolic reasoning.
+<b>PLI</b> — A symbolic execution framework built on top of Java Symbolic PathFinder (JPF). It enhances symbolic reasoning for complex heap-allocated inputs, improving precision and scalability.  
 [
-<a href="https://github.com/JuanmaCopia/spf-pli">code</a>&nbsp;
+<a href="https://github.com/JuanmaCopia/spf-pli">code</a>
 ]
 </p>
 
 <p>
-<b>SymSolve</b> is an efficient bounded exhaustive solver for symbolic structures with complex representation invariants. It determines the satisfiability of partially symbolic heaps with respect to structural constraints by leveraging operational specifications (e.g., repOk routines).
+<b>SymSolve</b> — A bounded exhaustive solver for symbolic structures with complex representation invariants. It determines the satisfiability of partially symbolic heaps via operational specifications.  
 [
-<a href="https://github.com/JuanmaCopia/SymSolve">code</a>&nbsp;
+<a href="https://github.com/JuanmaCopia/SymSolve">code</a>
 ]
 </p>
 
 <p>
-<b>PySEAT</b> is a symbolic execution engine for Python programs that implements lazy initialization to represent heap-allocated objects symbolically. It automates test generation for Python codebases, achieving high coverage and uncovering potential errors in complex systems.
+<b>PySEAT</b> — A symbolic execution engine for Python that applies lazy initialization to automate test generation and achieve high coverage in complex programs.  
 [
 <a href="https://github.com/JuanmaCopia/PySEAT">code</a>&nbsp;|
-<a href="https://juanmacopia.github.io/files/pyseat2020.pdf">.pdf</a>&nbsp;
+<a href="https://juanmacopia.github.io/files/pyseat2020.pdf">.pdf</a>
 ]
 </p>
 
-
-## Research Team
-
-* [Alessandra Gorla](https://software.imdea.org/~alessandra.gorla/) (IMDEA Software Institute, Spain)
-* Pablo Ponzio (UNRC, Argentina)
-* [Facundo Molina](https://facumolina.github.io/) (IMDEA Software Institute, Spain)
-* [Nazareno Aguirre](https://dc.exa.unrc.edu.ar/staff/naguirre) (UNRC, Argentina)
+---
 
 ## Contact
 
 <p>
-<b>Email:</b> jmcopia96@gmail.com
+<b>Email:</b> jmcopia96@gmail.com  
 </p>
 
 <p>
-You can find my CV on <a href="https://juanmacopia.github.io/files/cv.pdf">this link</a>.
+You can find my full CV <a href="https://juanmacopia.github.io/files/cv.pdf">here</a>.  
 </p>
