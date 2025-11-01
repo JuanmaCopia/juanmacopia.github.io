@@ -8,12 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-I'm a software engineer and researcher completing a PhD in Computer Science from [IMDEA Software Institute](https://software.imdea.org/) and [Universidad Politécnica de Madrid](https://www.upm.es/), supervised by [Alessandra Gorla](https://software.imdea.org/~alessandra.gorla/).  
+I'm a software engineer and researcher completing a PhD in Computer Science from [IMDEA Software Institute](https://software.imdea.org/) and [Universidad Politécnica de Madrid](https://www.upm.es/), supervised by [Alessandra Gorla](https://software.imdea.org/~alessandra.gorla/).
+
 My career bridges **academic innovation** and **industrial software engineering**, connecting deep research in program analysis and automated reasoning with the design, development, and deployment of scalable, real-world systems.
 
 I currently work as a **Software Development Engineer at Amazon**, where I design and deploy backend services powered by AWS technologies (EC2, Lambda, DynamoDB, S3, CloudWatch, CDK). My work combines robust software design, automation, and emerging AI tools to improve developer productivity and service scalability.  
 
-Previously, during my PhD, I focused on creating **intelligent software analysis systems**—using symbolic execution, search-based algorithms, and machine learning to automatically reason about program behavior and correctness. Some of my recent projects integrate **large language models (LLMs)** into patch correctness validation and test generation.
+Previously, during my PhD, I focused on creating **software analysis systems**, using symbolic execution, search-based algorithms, and machine learning to automatically reason about program behavior and correctness. Some of my recent projects integrate **large language models (LLMs)** into patch correctness validation and test generation.
 
 ---
 
