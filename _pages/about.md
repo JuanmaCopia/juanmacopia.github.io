@@ -14,7 +14,7 @@ I'm a software development engineer at **Amazon** and PhD researcher in Computer
 
 My career bridges **academic innovation** and **industrial software engineering**, connecting deep research in program analysis and automated reasoning with the design, development, and deployment of scalable, real-world systems.
 
-Currently, as a **Software Development Engineer** at **Amazon**, I design and deploy high-throughput services using **AWS technologies** (React, API Gateway, Lambda, DynamoDB, CDK). I also develop AI-driven solutions to boost developer velocity and service resilience.
+Currently, as a **Software Development Engineer** at **Amazon**, I design and deploy high-throughput services using **AWS technologies** (API Gateway, Lambda, DynamoDB, CDK). I also develop AI-driven solutions to boost developer velocity and service resilience.
 
 My PhD research focuses on **Software Analysis and Verification**. I build systems that merge **Symbolic Execution**, **Search-Based Optimization**, and **LLMs** to automatically infer properties, detect flaws, and validate patch correctness.
 
@@ -24,8 +24,8 @@ My PhD research focuses on **Software Analysis and Verification**. I build syste
 
 I’m passionate about building **intelligent, agentic software** that can reason, adapt, and collaborate autonomously. My current interests span:
 
-* **AI \& ML Systems:** AI-assisted software engineering, Machine learning–based reasoning systems, AI agents and infrastructure for scalable, data-driven products.
-* **Program Analysis \& Lightweight Formal Methods:** Symbolic execution, Search-based optimization, Software reliability and automated testing.
+* **AI:** AI-assisted software engineering, AI agents and infrastructure for scalable, data-driven products.
+* **Program Analysis & Lightweight Formal Methods:** Symbolic execution, Search-based optimization, Software reliability and automated testing.
 
 My long-term goal is to merge my background in software systems with modern AI techniques to design tools and systems that learn, self-improve, and operate at scale.
 
