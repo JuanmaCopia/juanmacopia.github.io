@@ -8,28 +8,26 @@ redirect_from:
   - /about.html
 ---
 
-I'm a software engineer and researcher completing a PhD in Computer Science from [IMDEA Software Institute](https://software.imdea.org/) and [Universidad Politécnica de Madrid](https://www.upm.es/), supervised by [Alessandra Gorla](https://software.imdea.org/~alessandra.gorla/).
+👋 Hi! I'm **Juan Manuel Copia**.
+
+I'm a software development engineer at **Amazon** and PhD researcher in Computer Science ([IMDEA Software Institute](https://software.imdea.org/), [Universidad Politécnica de Madrid](https://www.upm.es/), advised by [Alessandra Gorla](https://software.imdea.org/~alessandra.gorla/)).
 
 My career bridges **academic innovation** and **industrial software engineering**, connecting deep research in program analysis and automated reasoning with the design, development, and deployment of scalable, real-world systems.
 
-I currently work as a **Software Development Engineer at Amazon**, where I design and deploy backend services powered by AWS technologies (EC2, Lambda, DynamoDB, S3, CloudWatch, CDK). My work combines robust software design, automation, and emerging AI tools to improve developer productivity and service scalability.  
+Currently, as a **Software Development Engineer** at **Amazon**, I design and deploy high-throughput services using **AWS technologies** (React, API Gateway, Lambda, DynamoDB, CDK). I also develop AI-driven solutions to boost developer velocity and service resilience.
 
-Previously, during my PhD, I focused on creating **software analysis systems**, using symbolic execution, search-based algorithms, and machine learning to automatically reason about program behavior and correctness. Some of my recent projects integrate **large language models (LLMs)** into patch correctness validation and test generation.
+My PhD research focuses on **Software Analysis and Verification**. I build systems that merge **Symbolic Execution**, **Search-Based Optimization**, and **LLMs** to automatically infer properties, detect flaws, and validate patch correctness.
 
 ---
 
 ## Research & Engineering Interests
 
-I’m passionate about building **intelligent, agentic software** that can reason, adapt, and collaborate autonomously.  
-My current interests span:
+I’m passionate about building **intelligent, agentic software** that can reason, adapt, and collaborate autonomously. My current interests span:
 
-- AI-assisted software engineering  
-- Symbolic and search-based program analysis  
-- Machine learning–based reasoning systems  
-- Software reliability and automated testing  
-- AI agents and infrastructure for scalable, data-driven products  
+* **AI \& ML Systems:** AI-assisted software engineering, Machine learning–based reasoning systems, AI agents and infrastructure for scalable, data-driven products.
+* **Program Analysis \& Lightweight Formal Methods:** Symbolic execution, Search-based optimization, Software reliability and automated testing.
 
-My long-term goal is to merge my background in software systems and formal reasoning with modern AI techniques to design tools and systems that learn, self-improve, and operate at scale.
+My long-term goal is to merge my background in software systems with modern AI techniques to design tools and systems that learn, self-improve, and operate at scale.
 
 ---
 
