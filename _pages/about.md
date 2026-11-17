@@ -8,33 +8,48 @@ redirect_from:
   - /about.html
 ---
 
-👋 Hi! I'm **Juan Manuel Copia**.
+👋 Hi! I'm **Juan Manuel Copia**, a software engineer and computer scientist based in Madrid, Spain.
 
-I'm a software development engineer at **Amazon** and PhD researcher in Computer Science ([IMDEA Software Institute](https://software.imdea.org/), [Universidad Politécnica de Madrid](https://www.upm.es/), advised by [Alessandra Gorla](https://software.imdea.org/~alessandra.gorla/)).
+I'm a former **Software Development Engineer at Amazon** and a **PhD candidate in Computer Science** at [Universidad Politécnica de Madrid](https://www.upm.es/) and the [IMDEA Software Institute](https://software.imdea.org/), advised by [Alessandra Gorla](https://software.imdea.org/~alessandra.gorla/), defending my thesis in December 2026.
 
-My career bridges **academic innovation** and **industrial software engineering**, connecting deep research in program analysis and automated reasoning with the design, development, and deployment of scalable, real-world systems.
-
-Currently, as a **Software Development Engineer** at **Amazon**, I design and deploy high-throughput services using **AWS technologies** (API Gateway, Lambda, DynamoDB, CDK). I also develop AI-driven solutions to boost developer velocity and service resilience.
-
-My PhD research focuses on **Software Analysis and Verification**. I build systems that merge **Symbolic Execution**, **Search-Based Optimization**, and **LLMs** to automatically infer properties, detect flaws, and validate patch correctness.
+My work connects **industrial software engineering** with **research in program analysis and automated reasoning**: I build production systems, and I study how to make software more reliable through automated analysis.
 
 ---
 
-## Research & Engineering Interests
+## Industry Experience
 
-I’m passionate about building **intelligent, agentic software** that can reason, adapt, and collaborate autonomously. My current interests span:
+At **Amazon**, I designed, built, and deployed services with **React** and **AWS** (Lambda, S3, DynamoDB), with infrastructure as code in **AWS CDK (TypeScript)** and CloudFormation across multiple regions. I also:
+
+* Contributed to CI/CD pipelines, improving reliability and shortening release cycles.
+* Served in the team's **on-call rotation**, resolving production incidents to keep services reliable.
+* Built **AI agent skills** that automate complex debugging workflows.
+* Reviewed peers' code and mentored new hires as an onboarding buddy.
+
+Earlier, I fuzz-tested internal software components at **McAfee**, uncovering crashes that made them more robust.
+
+I currently teach **Programming in Python**, **Pandas**, and **Introduction to Data with Spreadsheets** to bachelor's students at **Albert School** in Madrid.
+
+---
+
+## Research
+
+My PhD research focuses on **Software Analysis and Verification**. I build systems that combine **Symbolic Execution**, **Search-Based Optimization**, and **LLMs** to automatically infer program properties, detect flaws, and validate patch correctness. This work is published at top software engineering venues, including **ICSE**, **ASE**, **ISSRE**, and **ICST**, and every tool it produced is open source (see [Software Artifacts](#software-artifacts) below).
+
+---
+
+## Interests
+
+I'm passionate about building **intelligent, agentic software** that can reason, adapt, and collaborate autonomously. My current interests span:
 
 * **AI:** AI-assisted software engineering, AI agents and infrastructure for scalable, data-driven products.
 * **Program Analysis & Lightweight Formal Methods:** Symbolic execution, Search-based optimization, Software reliability and automated testing.
-
-My long-term goal is to merge my background in software systems with modern AI techniques to design tools and systems that learn, self-improve, and operate at scale.
 
 ---
 
 ## Publications
 
 <p>
-<b>Search-based Inference of Class Invariants: How far can Simulated Annealing take us?</b> J. M. Copia, F. Molina, N. Aguirre, M. Frias, A. Gorla, P. Ponzio. <em>To appear in Symposium on Search-Based Software Engineering (SSBSE '25), Seoul, Republic of Korea</em>, November 2025.
+<b>Search-based Inference of Class Invariants: How far can Simulated Annealing take us?</b> J. M. Copia, F. Molina, N. Aguirre, M. Frias, A. Gorla, P. Ponzio. <em>In the 17th Symposium on Search-Based Software Engineering (SSBSE '25), Seoul, Republic of Korea</em>, November 2025.
 </p>
 
 <p>
