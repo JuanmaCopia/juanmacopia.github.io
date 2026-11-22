@@ -197,7 +197,7 @@
     \section{Summary}
 
     \begin{onecolentry}
-    \textit{Software Engineer and PhD researcher specializing in \textbf{program analysis, automated testing, and AI-assisted software engineering}. I built cloud-native services at Amazon using \textbf{AWS, TypeScript, IaC, and CI/CD}, and I have strong hands-on experience using \textbf{LLM coding agents and custom agent skills} for debugging, refactoring, test generation, and developer-productivity automation.}
+    \textit{Software Engineer and PhD candidate specializing in \textbf{program analysis and automated testing}. Founder of \textbf{Strent} (\href{https://strent.dev}{strent.dev}), a developer tool for Stripe subscription access that I designed, built, and operate in production: \textbf{TypeScript, Node.js, PostgreSQL, CI/CD}. Previously built cloud-native services at Amazon with \textbf{AWS and infrastructure as code}. I develop spec-first with \textbf{LLM coding agents} and build custom agent skills and agent-based evaluations.}
     \end{onecolentry}
 
 
@@ -214,7 +214,25 @@
 
 
         \vspace{0.1 cm}
-        
+
+
+        \begin{twocolentry}{
+            Apr 2026 – Present
+        }
+            \textbf{Founder \& Software Engineer}, \textit{Strent (\href{https://strent.dev}{strent.dev}) -- Madrid, Spain} \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Designed and built Strent, a developer tool that tells a SaaS application which Stripe subscription each customer has, replacing the webhook and subscription-sync code teams otherwise write and maintain.
+                \item Built the full system as a \textbf{TypeScript} monorepo: \textbf{Fastify} APIs, a background worker, \textbf{PostgreSQL} with \textbf{Drizzle ORM}, and \textbf{React} admin and operations apps.
+                \item Published the public HTTP API (\textbf{OpenAPI}) and the Node.js SDK on npm (\texttt{@strent-dev/node}).
+                \item Operate staging and production on \textbf{Railway} with \textbf{GitHub Actions}: every merge releases to staging, production takes manually promoted commits, and migrations keep the running version working during deploys.
+                \item Developed it spec-first with coding agents, and built agent-based evaluations in which an isolated agent integrates the product from the public docs alone, to measure and reduce documentation friction.
+            \end{highlights}
+        \end{onecolentry}
+
+        \vspace{0.2 cm}
 
         \begin{twocolentry}{
             Sep 2026 – Present
@@ -239,14 +257,11 @@
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item Quickly ramped up in Amazon’s large-scale development environment, mastering internal tools, deployment processes, and operational best practices.
                 \item Designed, implemented, and deployed high-impact services using \textbf{React} and \textbf{AWS technologies} such as \textbf{Lambda}, \textbf{S3}, and \textbf{DynamoDB}.
                 \item Developed and maintained \textbf{infrastructure as code} using \textbf{AWS CDK (TypeScript)}, \textbf{IAM}, \textbf{CloudFormation} and \textbf{CloudWatch} ensuring reproducibility and scalability across environments in different regions.
                 \item Built agent skills to automate complex debugging workflows and support developer productivity in day-to-day engineering tasks.
                 \item Contributed to \textbf{continuous integration and deployment pipelines}, improving reliability and reducing release cycle time.
-                \item Participated in \textbf{peer code reviews}, ensuring code quality, maintainability, and adherence to Amazon’s software engineering standards.
-                \item Participated in the team’s on-call rotation to ensure service reliability and rapid incident resolution
-                \item Mentored new hires during onboarding, helping them integrate into the team and learn Amazon’s development and operational practices.
+                \item Participated in the team’s on-call rotation to ensure service reliability and rapid incident resolution.
             \end{highlights}
         \end{onecolentry}
         
@@ -367,22 +382,6 @@
             \textit{Department of Computer Science, UNRC, Argentina}
             \begin{highlights}
                 \item GPA: 9.02/10.0
-            \end{highlights}
-        \end{onecolentry}
-
-        \vspace{0.2 cm}
-
-        \begin{twocolentry}{
-            Mar 2015 -- Jun 2018
-        }
-            \textbf{Undergraduate degree in Computer Science (Intermediate 3-year degree +
-            final project)}
-        \end{twocolentry}
-
-        \begin{onecolentry}
-            \textit{Department of Computer Science, UNRC, Argentina}
-            \begin{highlights}
-                \item GPA: 8.81/10.0
             \end{highlights}
         \end{onecolentry}
 
@@ -554,8 +553,7 @@
         A tool that automatically infers method preconditions and class
         invariants using search-based algorithms. It specializes in generating
         executable predicates (Java code) as preconditions for complex
-        heap-allocated objects. 
-        \textbf{Available at: \href{https://github.com/JuanmaCopia/express/}{github.com/JuanmaCopia/express}}
+        heap-allocated objects.
 
         \vspace{0.2 cm}
 
@@ -564,7 +562,6 @@
         static analysis, random testing, and large language models (LLMs) to
         automatically generate tests that highlight and explain potential patch
         inconsistencies.
-        \textbf{Available at: \href{https://github.com/facumolina/fixcheck/}{github.com/facumolina/fixcheck}}
 
         \vspace{0.2 cm}
 
@@ -573,8 +570,7 @@
         (JPF). It enhances symbolic analysis for programs with complex
         heap-allocated inputs and intricate preconditions. PLI addresses key
         challenges in lazy initialization, enabling more precise and efficient
-        symbolic reasoning. 
-        \textbf{Available at: \href{https://github.com/JuanmaCopia/spf-pli/}{github.com/JuanmaCopia/spf-pli}}
+        symbolic reasoning.
 
         \vspace{0.2 cm}
 
@@ -583,7 +579,6 @@
         complex representation invariants. It determines the satisfiability of
         partially symbolic heaps with respect to structural constraints by
         leveraging operational specifications (e.g., repOk routines).
-        \textbf{Available at: \href{https://github.com/JuanmaCopia/SymSolve/}{github.com/JuanmaCopia/SymSolve}}
 
         \vspace{0.2 cm}
 
@@ -592,7 +587,6 @@
         initialization to represent heap-allocated objects symbolically. It
         automates test generation for Python codebases, achieving high coverage
         and uncovering potential errors in complex systems.
-        \textbf{Available at: \href{https://github.com/JuanmaCopia/PySEAT/}{github.com/JuanmaCopia/PySEAT}}
 
         \end{highlightsforbulletentries}
     \end{onecolentry}
@@ -620,40 +614,6 @@
     \vspace{0.1 cm}
     \begin{onecolentry}
         \textit{Workshop,} \href{https://conf.researchr.org/details/icse-2024/klee-2024-papers/23/Precise-Lazy-Initialization-for-Programs-with-Complex-Heap-Inputs}{\textsc{KLEE Workshop on Symbolic Execution}}, \textit{Lisbon, Portugal.}
-    \end{onecolentry}
-
-
-    \vspace{0.2 cm}
-
-
-    \begin{twocolentry}{
-        Oct 2023
-    }
-        \textbf{Precise Lazy Initialization for Programs with Complex Heap Inputs}
-    \end{twocolentry}
-
-    \vspace{0.1 cm}
-    \begin{onecolentry}
-        \textit{Research Track,}
-        \href{https://issre.github.io/2023/program_research.html#research_16}{\textsc{ISSRE 2023}},
-        \textit{Florence, Italy.}
-    \end{onecolentry}
-
-
-    \vspace{0.2 cm}
-
-
-    \begin{twocolentry}{
-        Oct 2022
-    }
-        \textbf{LISSA: Lazy Initialization with Specialized Solver Aid}
-    \end{twocolentry}
-
-    \vspace{0.1 cm}
-    \begin{onecolentry}
-        \textit{Research Track,}
-        \href{https://conf.researchr.org/details/ase-2022/ase-2022-research-papers/103/LISSA-Lazy-Initialization-with-Specialized-Solver-Aid}{\textsc{ASE 2022}},
-        \textit{Oakland Center, Michigan, USA.}
     \end{onecolentry}
 
 
@@ -708,13 +668,11 @@
 \begin{onecolentry}
 \textbf{Agentic Tooling \& AI-assisted Development:} Spec-driven development with coding agents (Claude Code, Codex), custom agent skills, multi-agent code review, LLM-agent evaluation of documentation, MCPs, test generation, developer automation. \\
 \textbf{Programming Languages:} Python, Java, TypeScript. \\
-\textbf{Cloud/DevOps (AWS):} Lambda, S3, DynamoDB, SQS, SNS, CloudWatch, IAM. \\
+\textbf{Cloud/DevOps (AWS):} Lambda, S3, DynamoDB, SQS, SNS, CloudWatch, IAM, CDK (TypeScript), CloudFormation. \\
 \textbf{Backend \& Web:} Node.js, Fastify, PostgreSQL, Drizzle ORM, React, TanStack Router/Query, Astro, OpenAPI. \\
 \textbf{Platforms \& Integrations:} Stripe Billing API, Clerk, Railway, GitHub Actions, npm package publishing. \\
-\textbf{Infrastructure as Code:} AWS CDK (TypeScript), CloudFormation. \\
 \textbf{Machine Learning / Data:} NumPy, pandas. \\
 \textbf{Research \& Analysis:} Symbolic Execution, Static and Dynamic Analysis, Automatic Test Generation, Fuzzing. \\
-\textbf{Software Engineering:} Unit/Integration Testing, Code Review, Continuous Integration/Deployment (CI/CD). \\
 \textbf{Tools \& Frameworks:} Git, GitHub, Docker, Vitest, Playwright, pnpm, Turborepo, Dagger, Lombok, JUnit, Mockito, Smithy. \\
 \textbf{Spoken Languages:} English (Fluent/Professional Working Proficiency), Spanish (Native), French (Fluent/Professional Working Proficiency)
 \end{onecolentry}

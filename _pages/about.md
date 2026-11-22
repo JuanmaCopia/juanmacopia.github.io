@@ -10,9 +10,17 @@ redirect_from:
 
 👋 Hi! I'm **Juan Manuel Copia**, a software engineer and computer scientist based in Madrid, Spain.
 
-I'm a former **Software Development Engineer at Amazon** and a **PhD candidate in Computer Science** at [Universidad Politécnica de Madrid](https://www.upm.es/) and the [IMDEA Software Institute](https://software.imdea.org/), advised by [Alessandra Gorla](https://software.imdea.org/~alessandra.gorla/), defending my thesis in December 2026.
+I'm the founder of **[Strent](https://strent.dev)**, a developer tool that adds Stripe subscriptions to a SaaS without webhook code. I'm also a former **Software Development Engineer at Amazon** and a **PhD candidate in Computer Science** at [Universidad Politécnica de Madrid](https://www.upm.es/) and the [IMDEA Software Institute](https://software.imdea.org/), advised by [Alessandra Gorla](https://software.imdea.org/~alessandra.gorla/), defending my thesis in December 2026.
 
 My work connects **industrial software engineering** with **research in program analysis and automated reasoning**: I build production systems, and I study how to make software more reliable through automated analysis.
+
+---
+
+## Strent
+
+I'm building **[Strent](https://strent.dev)**: Stripe subscriptions in your SaaS with no webhook code. Stripe charges your customers through its hosted Checkout and Customer Portal, Strent keeps track of which plan each customer has, and your application decides what they can use. Your plans and prices stay in your own Stripe account, and it works with any login and any database.
+
+I designed, built, and operate it end to end: a **TypeScript** monorepo with **Fastify** APIs, a background worker, **PostgreSQL**, and **React** apps, running on Railway, with a public HTTP API and a [Node.js SDK on npm](https://www.npmjs.com/package/@strent-dev/node). The [step-by-step guide](https://docs.strent.dev/add-stripe-subscriptions/) is written for coding agents: in our guide trials, an agent takes a Next.js starter to working paid access in about 15 minutes of its own work.
 
 ---
 

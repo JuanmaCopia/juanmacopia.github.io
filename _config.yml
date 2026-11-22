@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Juan Manuel Copia "
 title_separator          : "-"
 name                     : &name "Juan Manuel Copia"
-description              : &description "Juan Manuel Copia: software engineer, formerly at Amazon, and PhD candidate in computer science at Universidad Politécnica de Madrid and IMDEA Software Institute."
+description              : &description "Juan Manuel Copia: founder of Strent, software engineer formerly at Amazon, and PhD candidate in computer science at Universidad Politécnica de Madrid and IMDEA Software Institute."
 url                      : https://juanmacopia.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "JuanmaCopia/juanmacopia.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Juan Manuel Copia"
   avatar           : "profile.jpg"
-  bio              : "Software Engineer, formerly at Amazon. PhD Candidate in Computer Science at Universidad Politécnica de Madrid and IMDEA Software Institute"
+  bio              : "Founder of Strent. Software Engineer, formerly at Amazon. PhD Candidate in Computer Science at Universidad Politécnica de Madrid and IMDEA Software Institute"
   location         : "Madrid, Spain"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
